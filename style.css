@@ -1,0 +1,381 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* From Uiverse.io by bociKond */
+.form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58bc82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+    border-radius: 0.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+}
+
+.label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+}
+
+.form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+}
+
+.span {
+    text-decoration: none;
+    color: var(--bg-dark);
+}
+
+.span a {
+    color: var(--clr);
+}
+
+@media only screen and (max-width:820px) {
+    .fi-section {
+        height: 500px;
+    }
+}
+@media only screen and (max-width:820px) {
+    .fi-sec {
+        margin-bottom: 0 ;
+        margin: 0 !important;
+        object-fit: contain !important;  
+    }
+   
+  
+}
+
+
+@media only screen and (max-width:430px) {
+    .fi-sec {
+
+        object-fit: contain !important;
+        margin-left: 40px !important;
+        height: 600px !important;
+        margin-bottom: 200px;
+        
+    }
+    .fi-boxss {
+        margin-bottom: 0px !important;
+  
+      }
+
+    .fi-section{
+        height: 600px !important;
+    }
+  
+}
+
+@media only screen and (max-width:600px) {
+    .fi-box {
+        height: 800px !important;
+
+    }
+}
+
+@media only screen and (max-width:920px) {
+    .fi-box {
+        height: 400px !important;
+
+    }
+}
+
+@media only screen and (max-width:920px) {
+    /* .fi-sec {
+        margin-right: 230px;
+
+    } */
+}
+
+@media only screen and (max-width:920px) {
+    .jkk {
+        height: 290px !important;
+        width: 70% !important;
+        background-color: rgba(255, 255, 255, 0.379);
+        border-radius: 100%;
+        z-index: 1111 !important;
+
+    }
+}
+/* 1024 */
+
+@media only screen and (max-width:1024px) {
+    .fi-section {
+        height: 600px;
+    }
+    .fi-sec {
+        height: 300px;
+        margin-bottom: 700PX ;
+        margin-right: 300PX;
+        object-fit: contain !important;
+    }
+    .jkk {
+        height: 390px !important;
+        width: 80% !important;
+        background-color: rgba(255, 255, 255, 0.379);
+        border-radius: 100%;
+        z-index: 1111 !important;
+
+    }
+    .fi-boxss {
+        margin-bottom: 700px;
+  
+      }
+
+    .firts-box{
+        left: 0;
+      }
+}
+
+
+
+/* SECOND - SECTION */
+@media only screen and (max-width:575px) {
+    .second-sca {
+        left: 120px;
+
+    }
+}
+
+
+.second-div:hover img {
+    opacity: 7;
+    transition: .2s linear;
+}
+
+.second-box:hover {
+    transform: translateY(-10px);
+    transition: .2s linear;
+}
+
+.second-box:hover second-div::before {
+    transform: translateX(0px);
+    transition: .2s ease;
+}
+
+.second-box:hover .second-hov {
+    border-bottom: 2px solid #16202c;
+}
+
+.second-box:hover img {
+    opacity: 50%;
+
+}
+
+.second-sca {
+    position: absolute;
+    top: 0;
+    right: 55px;
+    scale: 0;
+    opacity: 0;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #16202c;
+    transition: .4s linear;
+
+}
+
+.second-box:hover .second-sca {
+    scale: 1;
+    opacity: 1;
+    transition: .4s linear;
+}
+
+/* THERD - SECTION */
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.for-df:hover {
+    border-bottom: 2px solid #16202c;
+    transition: .1s linear;
+}
+.for-box {
+
+    scale: 0;
+    opacity: 0;
+    height: 35px;
+    text-align: center;
+    background-color: #f6f6f6;
+    transition: .4s lirgba(150, 158, 168, 0.171);
+    position: absolute;
+    bottom: 110px;
+}
+
+.for-card:hover .for-box {
+    scale: 1;
+    opacity: 1;
+    transition: .4s linear;
+}
+
+.for-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.224);
+}
+
+.five-butn {
+    z-index: 111;
+    background-color: #16202c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.five-butn:hover {
+    background: none;
+    color: #16202c;
+    font-weight: bold;
+    border: 1px solid #16202caf;
+}
+
+.six-box {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .4s linear;
+
+}
+
+.six-box img:hover {
+    scale: 1.05;
+    transition: .4s linear;
+}
+
+/* FIVE - SECTION */
+
+/*  SLIDER - SECTION */
+.slider-1 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    animation: slider-1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes slider-1 {
+    0%{
+        transform: translateX(0%);
+
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+
+}
+
+
+/*  */
+
+
+
+
+/* FOOTER - SECTION */
+.foter-sec:hover {
+    color: white !important;
+    transition: .3s linear !important;
+}
+.btn {
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(to top, #000000, #000000, #000000);
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+
+  }
+  
+  .btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #ffffff;
+  }
+  .btn-text-two {
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  .btn:hover .btn-text-two{
+    top: 50%;
+  }
+ 
